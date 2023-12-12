@@ -1,34 +1,75 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="/css/contact.css" />
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
 
-    <body>
-        <div class="hero">
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
 
-            <video autoplay loop muted plays-inline class="video">
-                <source src="images/about_highwaywtreesmp4.mp4" type="video/mp4">
-                min-width: 100%; min-height: 100%
-            </video>
-    
-            <nav>
-                <img src="images/logo_transparent.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="./pages/about.html">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="./pages/contacts.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="content">
-                <h1>Save Bulgaria</h1>
-    
-            </div>
-        <p>Egor Grebennikov</p>
-        <p>+35</p>
-    </body>
+    section {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Information</h1>
+  </header>
+
+  <section>
+    <h2>John Doe</h2>
+    <p>Email: egor.grebennykov@gmail.com.com</p>
+    <p>Phone: +359 87 948 5078</p>
+    <p>Address: 123 Main Street, Cityville</p>
+  </section>
+
+  <footer>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="../pages/about.html">About</a>
+      <a href="../pages/projects.html">Projects</a>
+      <a href="../pages/contacts.html">Contact</a>
+    </nav>
+  </footer>
+
+</body>
 </html>
