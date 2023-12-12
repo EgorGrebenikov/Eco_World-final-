@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(../images/background.jpg);
 }
 
 header {
@@ -40,6 +41,7 @@ header {
 
 .contact-info {
     padding: 20px;
+    padding-left: 40%;
 }
 
 .contact-info h1 {
